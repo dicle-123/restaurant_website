@@ -410,6 +410,93 @@ background: var(--green);
  }
 
 
+ .menu-image img{
+    width: 100%;
+    object-fit: cover;
+
+ }
+
+ .menu-image{
+    position: relative;
+ }
+
+ .menu-image .fa-heart{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  
+    font-size: 2rem;
+    background: #eee;
+    color: var(--black);
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+  
+ }
+
+ .menu-image .fa-heart:hover{
+    color: #fff;
+    background: var(--green);
+ }
+
+.menu .menus{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1.5rem;;
+}
+
+.menus .menu-image{
+    margin: .5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+    border-radius: .5rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.menus .menu-image .stars{
+    padding: 1rem 0;
+}
+
+.menus .menu-image .stars i{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+
+.menus .menu-image  span{
+    color: var(--green);
+    font-weight: bolder;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.menus .menu-image  h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.menus .menu-image p{
+    font-size: 1.5rem;
+}
+
+.menus .menu-imagep{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem 0;
+    line-height: 2;
+ }
+
+ .menu-image span{
+    margin-left: 1rem;
+ }
+
+
+
+
+
+
 
 
 
