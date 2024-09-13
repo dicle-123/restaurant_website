@@ -8,8 +8,10 @@ Menu page displaying food categories and items
 Contact page with a form for reservations or inquiries
 Responsive design for mobile and desktop views
 
-# Live Demo
-You can view the live demo here: Restaurant Website
+
+## Live Demo
+You can view the live demo here: [Restaurant Website](https://dicle-123.github.io/restaurant_website/)
+
 
 # Project Setup
 To run the project locally:
